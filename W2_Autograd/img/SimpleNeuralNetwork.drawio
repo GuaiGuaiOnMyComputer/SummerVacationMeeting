@@ -1,0 +1,139 @@
+<mxfile host="app.diagrams.net" modified="2023-08-16T02:35:53.518Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/116.0" etag="Ar9D80KrleB4RJ7Q47KY" version="21.6.8" type="device">
+  <diagram name="Page-1" id="UdKjAx2T99c4CF3saYxC">
+    <mxGraphModel dx="2045" dy="622" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="kyENoKv7KrbhL7I8W9qJ-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="kyENoKv7KrbhL7I8W9qJ-1" target="kyENoKv7KrbhL7I8W9qJ-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kyENoKv7KrbhL7I8W9qJ-1" value="&lt;font color=&quot;#1c71d8&quot;&gt;x&lt;sub&gt;1&lt;/sub&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#1c71d8;" vertex="1" parent="1">
+          <mxGeometry x="120" y="200" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="kyENoKv7KrbhL7I8W9qJ-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="kyENoKv7KrbhL7I8W9qJ-2" target="kyENoKv7KrbhL7I8W9qJ-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kyENoKv7KrbhL7I8W9qJ-2" value="&lt;font color=&quot;#1c71d8&quot;&gt;x&lt;sub&gt;2&lt;/sub&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#1c71d8;" vertex="1" parent="1">
+          <mxGeometry x="120" y="320" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="kyENoKv7KrbhL7I8W9qJ-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="kyENoKv7KrbhL7I8W9qJ-7" target="kyENoKv7KrbhL7I8W9qJ-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kyENoKv7KrbhL7I8W9qJ-7" value="&lt;font color=&quot;#1c71d8&quot;&gt;f&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#1c71d8;" vertex="1" parent="1">
+          <mxGeometry x="280" y="200" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="kyENoKv7KrbhL7I8W9qJ-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="kyENoKv7KrbhL7I8W9qJ-9" target="kyENoKv7KrbhL7I8W9qJ-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kyENoKv7KrbhL7I8W9qJ-9" value="&lt;font color=&quot;#1c71d8&quot;&gt;f&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#1c71d8;" vertex="1" parent="1">
+          <mxGeometry x="280" y="320" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="kyENoKv7KrbhL7I8W9qJ-13" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="kyENoKv7KrbhL7I8W9qJ-2" target="kyENoKv7KrbhL7I8W9qJ-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="370" y="390" as="sourcePoint" />
+            <mxPoint x="420" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kyENoKv7KrbhL7I8W9qJ-14" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="kyENoKv7KrbhL7I8W9qJ-1" target="kyENoKv7KrbhL7I8W9qJ-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="170" y="350" as="sourcePoint" />
+            <mxPoint x="290" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kyENoKv7KrbhL7I8W9qJ-15" value="&lt;font color=&quot;#1c71d8&quot;&gt;f&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#1c71d8;" vertex="1" parent="1">
+          <mxGeometry x="440" y="200" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="kyENoKv7KrbhL7I8W9qJ-16" value="&lt;font color=&quot;#1c71d8&quot;&gt;f&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#1c71d8;" vertex="1" parent="1">
+          <mxGeometry x="440" y="320" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="kyENoKv7KrbhL7I8W9qJ-17" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="kyENoKv7KrbhL7I8W9qJ-9" target="kyENoKv7KrbhL7I8W9qJ-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="170" y="350" as="sourcePoint" />
+            <mxPoint x="290" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kyENoKv7KrbhL7I8W9qJ-21" value="&lt;font color=&quot;#1c71d8&quot;&gt;y&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#1c71d8;" vertex="1" parent="1">
+          <mxGeometry x="600" y="260" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="kyENoKv7KrbhL7I8W9qJ-22" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#e51400;strokeColor=#B20000;" edge="1" parent="1" source="kyENoKv7KrbhL7I8W9qJ-15" target="kyENoKv7KrbhL7I8W9qJ-21">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="370" y="390" as="sourcePoint" />
+            <mxPoint x="420" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kyENoKv7KrbhL7I8W9qJ-23" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#e51400;strokeColor=#B20000;" edge="1" parent="1" source="kyENoKv7KrbhL7I8W9qJ-16" target="kyENoKv7KrbhL7I8W9qJ-21">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="490" y="230" as="sourcePoint" />
+            <mxPoint x="610" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kyENoKv7KrbhL7I8W9qJ-24" value="w&lt;sup&gt;1&lt;/sup&gt;&lt;sub&gt;11&lt;/sub&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="190" y="190" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kyENoKv7KrbhL7I8W9qJ-28" value="w&lt;sup&gt;2&lt;/sup&gt;&lt;sub&gt;11&lt;/sub&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="350" y="190" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kyENoKv7KrbhL7I8W9qJ-31" value="w&lt;sup&gt;2&lt;/sup&gt;&lt;sub&gt;12&lt;/sub&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="370" y="265" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kyENoKv7KrbhL7I8W9qJ-32" value="w&lt;sup&gt;3&lt;/sup&gt;&lt;sub&gt;11&lt;/sub&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="520" y="230" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kyENoKv7KrbhL7I8W9qJ-33" value="w&lt;sup&gt;3&lt;/sup&gt;&lt;sub&gt;12&lt;/sub&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="520" y="300" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kyENoKv7KrbhL7I8W9qJ-34" value="a&lt;sup&gt;1&lt;/sup&gt;&lt;sub&gt;1&lt;/sub&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="300" y="190" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kyENoKv7KrbhL7I8W9qJ-35" value="a&lt;sup&gt;2&lt;/sup&gt;&lt;sub&gt;1&lt;/sub&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="470" y="190" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kyENoKv7KrbhL7I8W9qJ-37" value="a&lt;sup&gt;2&lt;/sup&gt;&lt;sub&gt;2&lt;/sub&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="470" y="330" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kyENoKv7KrbhL7I8W9qJ-38" value="z&lt;sup&gt;1&lt;/sup&gt;&lt;sub&gt;1&lt;/sub&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="230" y="190" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kyENoKv7KrbhL7I8W9qJ-39" value="z&lt;sup&gt;2&lt;/sup&gt;&lt;sub&gt;1&lt;/sub&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="395" y="190" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kyENoKv7KrbhL7I8W9qJ-40" value="z&lt;sup&gt;2&lt;/sup&gt;&lt;sub&gt;2&lt;/sub&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="395" y="295" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kyENoKv7KrbhL7I8W9qJ-41" value="z&lt;sup&gt;3&lt;/sup&gt;&lt;sub&gt;1&lt;/sub&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="570" y="240" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kyENoKv7KrbhL7I8W9qJ-42" value="X&lt;sub&gt;n&lt;/sub&gt;: Input feature n" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-20" y="205" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kyENoKv7KrbhL7I8W9qJ-43" value="Output class" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="640" y="265" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kyENoKv7KrbhL7I8W9qJ-45" value="w&lt;sup&gt;p&lt;/sup&gt;&lt;sub&gt;qr&lt;/sub&gt;: weight for output of layer p, neuron q, to input of neuron r in next layer" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="110" y="430" width="420" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kyENoKv7KrbhL7I8W9qJ-46" value="a&lt;sup&gt;p&lt;/sup&gt;&lt;sub&gt;r&lt;/sub&gt;: output of neuron r in layer p" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="110" y="400" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kyENoKv7KrbhL7I8W9qJ-47" value="z&lt;sup&gt;p&lt;/sup&gt;&lt;sub&gt;r&lt;/sub&gt;: intput of neuron r in layer p+1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="110" y="460" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kyENoKv7KrbhL7I8W9qJ-48" value="&lt;div align=&quot;left&quot;&gt;f: activation function&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="120" y="370" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kyENoKv7KrbhL7I8W9qJ-49" value="a = f(z)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="530" y="400" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kyENoKv7KrbhL7I8W9qJ-50" value="z = x*w" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="530" y="460" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kyENoKv7KrbhL7I8W9qJ-52" value="" style="endArrow=classic;html=1;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="kyENoKv7KrbhL7I8W9qJ-34" target="kyENoKv7KrbhL7I8W9qJ-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="290" y="610" as="sourcePoint" />
+            <mxPoint x="340" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
