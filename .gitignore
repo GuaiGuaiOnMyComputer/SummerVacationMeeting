@@ -160,6 +160,8 @@ cython_debug/
 #.idea/
 
 # pytorch stuff
-W1_BuildModelAndTensorboard/model*
-W1_BuildModelAndTensorboard/data*
+W1_BuildModelAndTensorboard/model_20*
+W1_BuildModelAndTensorboard/data/*
 W1_BuildModelAndTensorboard/runs*
+data/*
+runs/*
