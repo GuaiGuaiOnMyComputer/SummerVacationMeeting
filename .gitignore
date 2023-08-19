@@ -165,3 +165,6 @@ W1_BuildModelAndTensorboard/data/*
 W1_BuildModelAndTensorboard/runs*
 data/*
 runs/*
+
+# drawio files
+*.drawio
