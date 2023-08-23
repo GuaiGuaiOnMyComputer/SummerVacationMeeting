@@ -9,7 +9,7 @@ class ThirdOrderLegendrePolynomial(torch.autograd.Function):
 
     @staticmethod
     def backward(ctx, grad_output):
-        _x, = ctx.saved_tensors()
+        _x, = ctx.saved_tensors
         return grad_output * 0.5 * (15*_x**2 - 3)
 
 
@@ -22,5 +22,5 @@ class FifthOrderLegendrePolynomial(torch.autograd.Function):
 
     @staticmethod
     def backward(ctx, gard_output):
-        _x, = ctx.saved_tensors()
+        _x, = ctx.saved_tensors
         return gard_output * 0.125*(315*_x**4 - 210*_x**2 + 15)
