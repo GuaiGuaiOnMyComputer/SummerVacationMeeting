@@ -165,6 +165,17 @@ W1_BuildModelAndTensorboard/data/*
 W1_BuildModelAndTensorboard/runs*
 data/*
 runs/*
+W4_TransferLearning/hymenoptera_data/train/ants/*.jpg
+W4_TransferLearning/hymenoptera_data/train/bees/*.jpg
+W4_TransferLearning/hymenoptera_data/val/ants/*.jpg
+W4_TransferLearning/hymenoptera_data/val/bees/*.jpg
+W4_TransferLearning/hymenoptera_data/train/ants/*.jpeg
+W4_TransferLearning/hymenoptera_data/train/bees/*.jpeg
+W4_TransferLearning/hymenoptera_data/val/ants/*.jpeg
+W4_TransferLearning/hymenoptera_data/val/bees/*.jpeg
 
 # drawio files
 *.drawio
+
+# large files
+*.zip
