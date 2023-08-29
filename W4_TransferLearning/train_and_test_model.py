@@ -1,7 +1,16 @@
 import time
+import torch
+from os.path import join
+from torch import optim
+from torch.optim import lr_scheduler
+from torch.nn import CrossEntropyLoss
+from torchvision.models import ResNet
+from torch.utils.data import DataLoader
+from tempfile import TemporaryDirectory
 
-def train_model(model, criterion, optimizer, scheduler, num_epochs=25):
+def train_model(model:ResNet, loss_fn:CrossEntropyLoss, train_dataloader:DataLoader, optimizer:optim, scheduler:lr_scheduler, num_epochs=25, device = "cuda"):
     since = time.time()
+    model.train()
 
     # Create a temporary directory to save training checkpoints
     with TemporaryDirectory() as tempdir:
@@ -11,56 +20,36 @@ def train_model(model, criterion, optimizer, scheduler, num_epochs=25):
         best_acc = 0.0
 
         for epoch in range(num_epochs):
-            print(f'Epoch {epoch}/{num_epochs - 1}')
-            print('-' * 10)
+            # print(f'Epoch {epoch}/{num_epochs - 1}')
+            # print('-' * 10)
 
-            # Each epoch has a training and validation phase
-            for phase in ['train', 'val']:
-                if phase == 'train':
-                    model.train()  # Set model to training mode
-                else:
-                    model.eval()   # Set model to evaluate mode
+            # Iterate over data.
+            for inputs, labels in train_dataloader:
+                inputs = inputs.to(device)
+                labels = labels.to(device)
 
-                running_loss = 0.0
-                running_corrects = 0
+                # zero the parameter gradients
+                optimizer.zero_grad()
 
-                # Iterate over data.
-                for inputs, labels in dataloaders[phase]:
-                    inputs = inputs.to(device)
-                    labels = labels.to(device)
+                # forward
+                # track history if only in train
+                outputs = model(inputs)
+                _, preds = torch.max(outputs, 1)
+                loss = loss_fn(outputs, labels)
+                loss.backward()
+                optimizer.step()
 
-                    # zero the parameter gradients
-                    optimizer.zero_grad()
+                # statistics
+                running_loss += loss.item() * inputs.size(0)
+                running_corrects += torch.sum(preds == labels.data)
+                
+                scheduler.step()
 
-                    # forward
-                    # track history if only in train
-                    with torch.set_grad_enabled(phase == 'train'):
-                        outputs = model(inputs)
-                        _, preds = torch.max(outputs, 1)
-                        loss = criterion(outputs, labels)
+                epoch_loss = running_loss.mean()
+                epoch_acc = running_corrects.double().mean()
 
-                        # backward + optimize only if in training phase
-                        if phase == 'train':
-                            loss.backward()
-                            optimizer.step()
+                # print(f'{phase} Loss: {epoch_loss:.4f} Acc: {epoch_acc:.4f}')
 
-                    # statistics
-                    running_loss += loss.item() * inputs.size(0)
-                    running_corrects += torch.sum(preds == labels.data)
-                if phase == 'train':
-                    scheduler.step()
-
-                epoch_loss = running_loss / dataset_sizes[phase]
-                epoch_acc = running_corrects.double() / dataset_sizes[phase]
-
-                print(f'{phase} Loss: {epoch_loss:.4f} Acc: {epoch_acc:.4f}')
-
-                # deep copy the model
-                if phase == 'val' and epoch_acc > best_acc:
-                    best_acc = epoch_acc
-                    torch.save(model.state_dict(), best_model_params_path)
-
-            print()
 
         time_elapsed = time.time() - since
         print(f'Training complete in {time_elapsed // 60:.0f}m {time_elapsed % 60:.0f}s')
