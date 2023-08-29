@@ -61,7 +61,7 @@ def __model_validate(model:ResNet, val_dataloader:DataLoader, loss_fn:CrossEntro
         for inputs, labels in val_dataloader:
             inputs.to(device)
             labels.to(device)
-            batch_val_loss, batch_val_predict = __predict_and_get_batch_loss(model, inputs, loss_fn, device)
+            batch_val_loss, batch_val_predict = __predict_and_get_batch_loss(model, inputs, labels, loss_fn, device)
             avg_epoach_validation_acc += torch.sum(batch_val_predict == labels)
             avg_epoach_validation_loss += batch_val_loss
     return avg_epoach_validation_acc.mean(), avg_epoach_validation_loss.mean()
