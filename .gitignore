@@ -174,8 +174,6 @@ W4_TransferLearning/hymenoptera_data/train/bees/*.jpeg
 W4_TransferLearning/hymenoptera_data/val/ants/*.jpeg
 W4_TransferLearning/hymenoptera_data/val/bees/*.jpeg
 
-# drawio files
-*.drawio
 
 # large files
 *.zip
