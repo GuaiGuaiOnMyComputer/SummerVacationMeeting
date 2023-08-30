@@ -98,6 +98,7 @@ def my_train_model(model:ResNet, loss_fn:CrossEntropyLoss, dataloaders:dict[str,
             model, avg_train_acc, avg_train_loss = __model_fit(model, dataloaders['train'], dataset_size['train'], optimizer, scheduler, loss_fn, device)
             model.eval()
             avg_val_acc, avg_val_loss = __model_validate(model, dataloaders['val'], dataset_size['val'], loss_fn, device)
+            scheduler.step()
             
             if avg_val_acc > best_validation_acc:
                 torch.save(model.state_dict(), best_model_params_path)
@@ -127,7 +128,6 @@ def __model_fit(model:ResNet, train_dataloader:DataLoader, train_size:int, optim
 
         avg_epoach_train_acc += torch.sum(batch_train_predict == labels.data)
         avg_epoach_train_loss += batch_train_loss * inputs.size(0)
-        scheduler.step()
 
     return model, avg_epoach_train_acc.item() / train_size, avg_epoach_train_loss.item() / train_size
 
