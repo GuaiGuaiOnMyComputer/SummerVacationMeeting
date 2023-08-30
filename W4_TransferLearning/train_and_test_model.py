@@ -9,7 +9,7 @@ from torch.utils.data import DataLoader
 from tempfile import TemporaryDirectory
 
 
-def tutorial_train_model(model, criterion, optimizer, scheduler, dataloaders, dataset_sizes, device, num_epochs=25):
+def tutorial_train_model(model, criterion, optimizer, scheduler, dataloaders, dataset_sizes, device, num_epochs=5):
     since = time.time()
 
     # Create a temporary directory to save training checkpoints
