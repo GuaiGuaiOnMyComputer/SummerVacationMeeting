@@ -9,7 +9,7 @@ from torch.utils.data import DataLoader
 from tempfile import TemporaryDirectory
 
 
-def tutorial_train_model(model, criterion, optimizer, scheduler, dataloaders, dataset_sizes, device, num_epochs=5):
+def tutorial_train_model(model, criterion, optimizer, scheduler, dataloaders, dataset_sizes, device, num_epochs):
     since = time.time()
 
     # Create a temporary directory to save training checkpoints
@@ -80,7 +80,7 @@ def tutorial_train_model(model, criterion, optimizer, scheduler, dataloaders, da
     return model
  
 
-def my_train_model(model:ResNet, loss_fn:CrossEntropyLoss, dataloaders:dict[str, DataLoader], dataset_size:dict['str', int], optimizer:optim, scheduler:lr_scheduler, device:torch.device, num_epochs=25) -> ResNet:
+def my_train_model(model:ResNet, loss_fn:CrossEntropyLoss, dataloaders:dict[str, DataLoader], dataset_size:dict['str', int], optimizer:optim, scheduler:lr_scheduler, device:torch.device, num_epochs:int) -> ResNet:
     since = time.time()
     # Create a temporary directory to save training checkpoints
     with TemporaryDirectory() as tempdir:
